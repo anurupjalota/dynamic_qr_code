@@ -4,10 +4,10 @@ from pyqrcode import QRCode
   
   
 # String which represents the QR code 
-s = "www.geeksforgeeks.org"
+s = "https://anurupjalota.github.io/dynamic_qr_code/try1.pdf"
   
 # Generate QR code 
 url = pyqrcode.create(s) 
   
-# Create and save the svg file naming "myqr.svg" 
-url.svg("myqr.svg", scale = 8) 
+
+url.png('myqr.png', scale = 6) 
